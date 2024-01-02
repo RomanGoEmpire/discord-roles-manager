@@ -26,6 +26,7 @@ async def on_raw_reaction_add(payload):
         guild = bot.get_guild(payload.guild_id)
         role = discord.utils.get(guild.roles, name=ROLE)
         await payload.member.add_roles(role)
+        print(f"Added {role} to {payload.member}")
         
 @bot.event
 async def on_raw_reaction_remove(payload):
@@ -34,6 +35,7 @@ async def on_raw_reaction_remove(payload):
         member = await guild.fetch_member(payload.user_id)
         role = discord.utils.get(guild.roles, name=ROLE)
         await member.remove_roles(role)
+        print(f"Removed {role} from {member}")
 
 
 api_key = os.getenv("API_KEY")
