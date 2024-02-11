@@ -27,5 +27,10 @@ This bot assigns a role to a user in a Discord server when they react to a speci
    ```sh
    source start.sh
    ```
+   The bot will now run the in background. you can close the terminal.
+   
+5. You can stop the process with the following command:
+   ```sh
+   source stop.sh
+   ```
 
-The bot should now be running and ready to assign roles in your Discord server.
