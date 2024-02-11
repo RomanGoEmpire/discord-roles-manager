@@ -12,13 +12,12 @@ This bot assigns a role to a user in a Discord server when they react to a speci
 
 0. Add the Bot to the server.
 1. Clone this repository to your local machine.
-2. Install the required Python libraries using pip:
+2. Start the programm with following command:
+   ```sh
+   ./start.sh
+   ```
 
-```sh
-pip install -r requirements.txt
-```
-
-3. Create a .env file in the root directory of the project, and add your Discord bot token, the ID of the message to react to, the reaction emoji, and the role to assign:
+4. Create a .env file in the root directory of the project, and add your Discord bot token, the ID of the message to react to, the reaction emoji, and the role to assign:
 
 ```
 API_KEY=your_discord_bot_token  
