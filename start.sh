@@ -15,6 +15,8 @@ else
     # You can add any additional setup steps here if needed
 fi
 
+# install all requirements
 pip install -r requirements.txt
 
-python3 roles_bot.py
+# start the process
+nohup python3 roles_bot.py &
