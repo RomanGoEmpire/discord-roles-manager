@@ -25,7 +25,7 @@ This bot assigns a role to a user in a Discord server when they react to a speci
    
 4. Start the programm with following command:
    ```sh
-   ./start.sh
+   source start.sh
    ```
 
 The bot should now be running and ready to assign roles in your Discord server.
