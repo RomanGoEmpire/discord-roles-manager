@@ -10,7 +10,7 @@ then
     source venv/bin/activate
 else
     echo "Virtual environment does not exist. Creating..."
-    python -m venv venv
+    python3 -m venv venv
     source venv/bin/activate
     # You can add any additional setup steps here if needed
 fi
