@@ -7,6 +7,6 @@ if [ ! -d 'venv' ]; then
 fi
 source venv/bin/activate;
 pip install -r requirements.txt;
-streamlit run your_app.py;
+streamlit run roles_bot.py;
 bash
 "
