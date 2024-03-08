@@ -19,4 +19,8 @@ fi
 pip install -r requirements.txt
 
 # start the process
-nohup python3 roles_bot.py &
+# Start a screen session named "roles_bot"
+screen -S roles_bot -d -m bash -c 'streamlit run roles_bot.py'
+
+# Close the screen in the background
+screen -S roles_bot -X quit
